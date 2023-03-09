@@ -1,5 +1,5 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
 for i in range(97, 123):
     if chr(i) == 'q' or chr(i) == 'e':
         continue
-    print(chr(i).formart(i)end='')
+    print(chr(i).format(i), end='')
